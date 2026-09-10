@@ -20,18 +20,22 @@
 เปิด PowerShell หรือ Command Prompt ในโฟลเดอร์โปรเจคแล้วทำตามขั้นตอนนี้
 
 ```powershell
-python -m venv .venv
+py -3.8 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
 หากใช้ Git Bash หรือ bash อื่น อาจใช้คำสั่ง:
 
 ```bash
-python -m venv .venv
+python3.8 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### 2) ติดตั้ง dependency
+
+```powershell
+cd .\PID_gimball_Robert_Downy_juno\
+```
 
 ```powershell
 pip install -r requirements.txt
